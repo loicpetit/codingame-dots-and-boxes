@@ -1,4 +1,3 @@
 export class Action {
-    value:string = ''
-    parameters:string[] = []
+    constructor(public value:string, public parameters?:string[]) {}
 }
